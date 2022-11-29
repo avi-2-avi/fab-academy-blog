@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.84.0" />
+    <title>Heroes · Bootstrap v5.0</title>
+
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.0/examples/heroes/"
+    />
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <!-- Custom styles for this template -->
+    <link href="css/heroes.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="about.html">Sobre Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Galeria</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="px-4 pt-5 my-5 text-center">
+        <h1 class="display-4 fw-bold">Sobre Nosotros</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4 pt-4">
+            Nuestro innovador proyecto intenta satisfacer a aquellas personas
+            que residen en un sector rural, quienes no tienen la suficiente
+            solvencia económica para poder adquirir ciertos artefactos
+            tecnológicos para que tengan una mejor calidad de vida. Por ello, el
+            prototipo presentado en este trabajo, se dará origen a un
+            centrifugado mecánico para que puedan ser de gran ayuda a las
+            personas a la hora de secar ciertas ropas livianas (blusas, polos,
+            medias, entre otros).
+          </p>
+          <p class="lead mb-4 pt-2 pb-4">
+            Además, presenta un sencillo sistema que a la hora de sentarse con
+            ayuda de un pistón-asiento con manijas para que se pueda girar este
+            empiece a funcionar de manera adecuada sin ningún tipo de sistema
+            electrónico con un instrumento de salida como un caño o manguera. De
+            tal modo se podrá mejorar la calidad de vida de las personas en
+            estos sectores y se evitará que las personas tengan que estar
+            secando a mano las ropas, ya que se pueden enfermar por el constante
+            contacto con el agua helada. Los resultados de nuestra investigación
+            se mostrarán en un boceto con la funcionalidad del producto y con
+            los componentes que este requiere.
+          </p>
+          <img
+            src="img/rural.jpeg"
+            class="img-fluid border rounded-3 shadow-lg mb-4"
+            alt="Example image"
+            width="700"
+            height="500"
+            loading="lazy"
+          />
+        </div>
+      </div>
+      <div class="container px-4 py-5" id="custom-cards">
+        <h2 class="pb-2 border-bottom">Objetivos</h2>
+
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden bg-dark rounded-5 shadow-lg"
+              style="background-image: url('img/happy.jpeg')"
+            >
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  Mejorar las condiciones de vida
+                </h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden bg-dark rounded-5 shadow-lg"
+              style="background-image: url('img/money.jpeg')"
+            >
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  Económico a largo plazo
+                </h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden bg-dark rounded-5 shadow-lg"
+              style="background-image: url('img/elec.jpeg')"
+            >
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  Utilizarse sin un sistema eléctrico
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="b-example-divider mb-0"></div>
+    </main>
+
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
